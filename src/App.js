@@ -6,11 +6,14 @@ function App() {
   return (
     <div className="container text-center">
       <h1>Welcome to IoT Mushroom Farm</h1>
-      <div className="row">
-        <div className="col"></div>
+      <div
+        className="row"
+        style={{ padding: "45px", border: "10px sold dark" }}
+      >
+        <div className="col">1</div>
         <div className="col">2</div>
-        {/* <div className="col">3</div>
-        <div className="col">4</div> */}
+        <div className="col">3</div>
+        <div className="col">4</div>
       </div>
     </div>
   );
